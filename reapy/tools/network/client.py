@@ -24,7 +24,7 @@ class Client(Socket):
         try:
             self.send(request)
         except Exception as e:
-            self.connect(self.port, self.host)
+            self._connect(self.port, self.host)
             self.send(request)
         result = self._get_result()
         if result["type"] == "result":

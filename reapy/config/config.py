@@ -29,8 +29,8 @@ __all__ = [
 ]
 
 
-REAPY_SERVER_PORT = 2306
-WEB_INTERFACE_PORT = 2307
+REAPY_SERVER_PORT = 2446
+WEB_INTERFACE_PORT = 2447
 
 
 class CaseInsensitiveDict(OrderedDict):

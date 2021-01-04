@@ -21,11 +21,7 @@ class Client(Socket):
     def request(self, function, input=None):
         request = {"function": function, "input": input}
         request = json.dumps(request).encode()
-        try:
-            self.send(request)
-        except Exception as e:
-            self._connect(self.port, self.host)
-            self.send(request)
+        self.send(request)
         result = self._get_result()
         if result["type"] == "result":
             return result["value"]

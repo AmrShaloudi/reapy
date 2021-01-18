@@ -30,7 +30,7 @@ __all__ = [
 
 
 REAPY_SERVER_PORT = 2446
-WEB_INTERFACE_PORT = 2447
+WEB_INTERFACE_PORT = 2445
 
 
 class CaseInsensitiveDict(OrderedDict):

@@ -10,8 +10,8 @@ import shutil
 
 import typing as ty
 
-REAPY_SERVER_PORT = 2306
-WEB_INTERFACE_PORT = 2307
+REAPY_SERVER_PORT = 2442
+WEB_INTERFACE_PORT = 2441
 
 T1 = ty.TypeVar('T1')
 T2 = ty.TypeVar('T2')
